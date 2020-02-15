@@ -1,3 +1,3 @@
-FROM pibase:latest
+FROM raspbian/stretch:latest
 
 RUN apt-get update -y && apt-get upgrade -y
