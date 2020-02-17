@@ -1,3 +1,4 @@
-FROM pibase:latest
+FROM scratch
 
-RUN apt-get update -y && apt-get upgrade -y
+ADD raspbian.tar.gz /
+CMD ["/bin/bash"]
